@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WpfAppControl.ViewModels
 {
-    public class MainWindowViewModel : ObservableObject
+    public partial class MainWindowViewModel : ObservableObject
     {
         [ObservableProperty]
         private string _title = "Контроль указаний";
