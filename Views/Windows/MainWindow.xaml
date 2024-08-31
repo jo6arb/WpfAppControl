@@ -6,10 +6,12 @@
         xmlns:local="clr-namespace:WpfAppControl"
         xmlns:vm="clr-namespace:WpfAppControl.ViewModels"
         mc:Ignorable="d"
+        Style="{StaticResource MaterialDesignWindow}"
+        Background="{DynamicResource MaterialDesignPaper}"
         DataContext="{Binding MainWindowViewModel, Source={StaticResource Locator}}"
         d:DataContext="{d:DesignInstance vm:MainWindowViewModel,IsDesignTimeCreatable=True}"
         Title="{Binding Title}" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <DockPanel>
+        
+    </DockPanel>
 </Window>
